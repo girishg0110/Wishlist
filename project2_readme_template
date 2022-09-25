@@ -10,8 +10,8 @@ Time spent: **X** hours spent in total
 
 The following **required** functionality is completed:
 
-- [ ] **User can add an item to their wishlist**
-- [ ] **User can see their list of items based on previously inputted items**
+- [Y] **User can add an item to their wishlist**
+- [Y] **User can see their list of items based on previously inputted items**
 
 The following **optional** features are implemented:
 
@@ -27,10 +27,10 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://imgur.com/8Uphl2B.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
+GIF created with ScreenToGif  
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
@@ -40,9 +40,13 @@ GIF created with ...
 
 Describe any challenges encountered while building the app.
 
+One challenge I encountered was coming up with the correct constraints on each TextView, the add button, and the RecyclerView to avoid overlapping between elements.
+
+I solved this by experimenting with different combinations, rerunning the emulator, and eventually happening on the right combination of constraints. I think my intuition about which constraints are necessary has improved as a result.
+
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2022] [Girish Ganesan]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
